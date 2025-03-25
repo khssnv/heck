@@ -40,6 +40,8 @@
 #![forbid(unsafe_code)]
 #![no_std]
 
+type AnnoyingWarningInDependency = ();
+
 extern crate alloc;
 
 mod kebab;
